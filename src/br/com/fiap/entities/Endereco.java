@@ -2,7 +2,11 @@ package br.com.fiap.entities;
 
 public class Endereco {
 
+<<<<<<< HEAD
     //visibilidade, tipo de dados e atributo
+=======
+      //visivlidade, tipo de dados e atributos
+>>>>>>> 9cfe21282bd6bfc2fa0f1086e62eec737873bf08
     private String logradouro;
     private int numero;
     private String complemento;
@@ -11,8 +15,14 @@ public class Endereco {
     private String cidade;
     private String estado;
 
+<<<<<<< HEAD
 
     // metodos getters e setters - botão direito -> generate -> getters and setters
+=======
+    // metodos setters (entradas) e getters (saidas)
+
+
+>>>>>>> 9cfe21282bd6bfc2fa0f1086e62eec737873bf08
     public String getLogradouro() {
         return logradouro;
     }
@@ -68,6 +78,7 @@ public class Endereco {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+<<<<<<< HEAD
 
     @Override
     public String toString() {
@@ -80,4 +91,6 @@ public class Endereco {
                 "\ncidade='" + cidade + '\'' +
                 "\nestado='" + estado + '\'';
     }
+=======
+>>>>>>> 9cfe21282bd6bfc2fa0f1086e62eec737873bf08
 }
